@@ -47,7 +47,7 @@ jobs:
       - name: Upload APK to Summary
         uses: actions/upload-artifact@v4
         with:
-          name: ClintBrowser-ARMv8-APK
+          name: Omni-Browser-ARMv8-APK
           path: output/ClintBrowser-ARMv8-debug.apk
           retention-days: 7
 
